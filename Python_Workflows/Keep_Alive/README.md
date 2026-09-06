@@ -1,4 +1,4 @@
-## Keep_Alive
+## Keep Alive
 
 Small collection of scripts I use to keep a Windows machine awake and simulate light user activity during long-running jobs. Built mainly for data work where processes can take hours and I don’t want the machine to sleep or lock in the middle of a run.
 
