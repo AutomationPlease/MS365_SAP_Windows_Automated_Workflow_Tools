@@ -2,7 +2,7 @@
 This assumes the sap logon pad is already open and running (but not logged into active session).
 obviously update sap "system" name and "windows_cred_name_search".
 example below is using windows credentials manager for exmaple purposes only.
-  a stronger password manager would be more desired.
+a stronger password manager would be more desired.
 """
 import win32cred
 import win32com.client
