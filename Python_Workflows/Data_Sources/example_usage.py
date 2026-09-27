@@ -7,5 +7,5 @@ import configparser
 config = configparser.ConfigParser()
 config.read(r"X:\Folder Name\Sub Folder Name\external_dataset.xlsx")
 data_source_file_path = config['Paths']['data_source_file_path']
-data_source_file_path = rdc_weekly_update_report_path.strip().strip('"').strip("'").lstrip('r').strip('"').strip("'")
-data_source_file_path = rdc_weekly_update_report_path.replace('/', '\\')
+data_source_file_path = data_source_file_path.strip().strip('"').strip("'").lstrip('r').strip('"').strip("'")
+data_source_file_path = data_source_file_path.replace('/', '\\')
